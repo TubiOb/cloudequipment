@@ -9,8 +9,8 @@ import Rectangle4 from '../assets/Rectangle 146.svg'
 
 const Features = () => {
   return (
-    <div className='flex w-full items-center'>
-        <div className='flex flex-col items-center justify-center w-[80%] mx-auto h-auto gap-20'>
+    <div className='flex w-full h-full mb-6 items-center mt-7 lg:mt-16'>
+        <div className='flex flex-col items-center justify-center w-[80%] mx-auto relative gap-20'>
             <div className='flex-col items-center text-center justify-between gap-3 lg:w-[60%] flex'>
                 <div className='text-[#54D4BD] bg-[#EEFFFC] rounded-lg items-center justify-center py-1 px-2'>
                     <h5 className='inter text-xs'>CE Support</h5>

@@ -1,5 +1,5 @@
 import React from 'react'
-import aside from '../assets/Spinning Geometric Shapes.svg'
+// import aside from '../assets/Spinning Geometric Shapes.svg'
 import '../index.css'
 
 const Newsletter = () => {
@@ -19,8 +19,8 @@ const Newsletter = () => {
                     <path opacity="0.5" d="M371.461 384.5L455 -12M349.085 384.5L443.066 -12M326.708 384.5L431.629 -12M303.337 384.5L419.695 -11.5M279.966 384.5L407.761 -11.5M256.595 384.5L394.832 -11.5M231.235 384.5L382.401 -11M205.875 385L368.477 -11M179.52 385L354.554 -11M152.171 384.5L340.134 -11M124.325 384.5L324.719 -11M95.4841 384.5L308.807 -11M65.1515 384.5L292.397 -11M34.3216 384.5L274.993 -11M2 385L258.584 -11" stroke="url(#paint0_linear_373_799)" stroke-width="3"/>
                     <defs>
                         <linearGradient id="paint0_linear_373_799" x1="2" y1="385" x2="514.987" y2="279.396" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#1975FF"/>
-                        <stop offset="1" stop-color="#33A9FF"/>
+                        <stop stop-color="#54D4BD"/>
+                        <stop offset="1" stop-color="54D4BD"/>
                         </linearGradient>
                     </defs>
                 </svg>
