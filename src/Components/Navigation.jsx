@@ -37,7 +37,7 @@ const Navigation = () => {
   ]
 
   return (
-    <div className={`fixed bg-white z-40 flex xl:flex-row lg:flex-row 2xl:flex-row md:flex-col flex-col items-start md:items-start lg:items-center xl:items-center 2xl:items-center justify-between right-0 lg:w-full w-[70%] md:w-[50%] lg:h-14 xl:h-14 2xl:h-16 h-full md:h-full lg:py-1 px-5 py-10 xl:py-4 xl:px-8 gap-9 lg:gap-1 ${isMenuOpen ? 'right-0' : 'right-[-100%]'} `}>
+    <div className={`fixed bg-white z-40 flex xl:flex-row lg:flex-row 2xl:flex-row md:flex-col flex-col items-start md:items-start lg:items-center xl:items-center 2xl:items-center justify-between md:right-0 lg:w-full xl:w-full 2xl:w-full w-[70%] md:w-[50%] lg:h-14 xl:h-14 2xl:h-16 h-full md:h-full lg:py-1 px-5 py-10 xl:py-4 xl:px-8 gap-9 lg:gap-1 ${isMenuOpen ? 'right-0' : 'right-[-100%]'} `}>
       <div className='w-16 h-6 cursor-pointer flex flex-row gap-2'>
           <Link to='/product' className='w-full h-full cursor-pointer'>
               <img src={logo} alt="Golio" className='w-full h-full' />
@@ -80,7 +80,7 @@ const Navigation = () => {
                 ?
                 (<LiaWindowCloseSolid  size={30} className='text-black z-50 fixed' />)
                 :
-                (<HiMenuAlt3 size={30} className='text-white z-50 fixed' />)
+                (<HiMenuAlt3 size={30} className='text-black z-50 fixed' />)
             }
       </div>
     </div>
