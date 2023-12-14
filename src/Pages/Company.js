@@ -7,7 +7,7 @@ import OurServices from '../Components/OurServices'
 
 const Company = () => {
   return (
-    <div className='bg-[#FBFDFD] w-full h-full'>
+    <div className='bg-[#FBFDFD] w-full h-full items-center flex justify-between flex-col'>
         <Navigation />
         <CompanyHero />
         <AboutUs />

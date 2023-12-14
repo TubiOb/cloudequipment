@@ -44,3 +44,9 @@
 .inter {
     font-family: 'Inter';
 }
+
+.hope {
+    background-image: url('./assets/john-fornander-Id7u0EkTjBE-unsplash\ \(1\)\ 1.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
