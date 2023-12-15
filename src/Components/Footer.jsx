@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className='w-full  items-center justify-between'>
         <div className='flex bg-[rgb(66,82,107)] w-full lg:min-w-[1120px] items-center lg:items-start justify-between gap-2 flex-wrap lg:pt-16 lg:px-28'>
-            <div className='w-full lg:w-[45%] flex-col text-white flex gap-2 px-3 py-5 lg:py-0'>
+            <div className='w-full lg:w-[45%] flex-col text-white flex gap-10 px-3 py-5 lg:py-0 bottom-0'>
                 <img src={logo} alt="Cloud Equipment" className='w-52 h-12' />
                 <p className='manrope text-xs md:text-sm lg:text-base xl:text-base 2xl:text-base font-normal leading-5'>We are always open to discuss your project and improve your online presence.</p>
                 <div className='flex flex-shrink flex-col lg:flex-row items-start lg:items-center justify-between text-[#40484F] gap-3 px-2 py-3 lg:p-4 bg-[#54D4BD]'>
