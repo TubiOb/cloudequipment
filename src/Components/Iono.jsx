@@ -21,7 +21,7 @@ const Iono = () => {
 
   return (
     <>
-      <div className='relative h-full'>
+      <div className='relative h-full mb-52'>
         <img className='relative object-cover w-full h-[500px] md:h-auto' src={photo} alt='A captivating visual' />
         <img alt="" className='z-10 w-[15%] h-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 absolute top-80 sm:top-60 md:top-1/2' src={playButton} />
         
