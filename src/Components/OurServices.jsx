@@ -15,7 +15,7 @@ const Card = ({ title, description, icon }) => {
     <div className="bg-white shadow-md flex mx-auto w-[80%] lg:w-fit xl:w-fit 2xl:w-fit p-5 lg:py-14 gap-3 items-start rounded-[20px] cursor-pointer">
       <img src={icon} alt="" className="w-[50px]" />
       {/* <img src={Shape} alt="" className='self-start w-10 h-10' /> */}
-      <div className="gap-4 text-left">
+      <div className="gap-6 text-left">
         <h6 className='play -tracking-[2] leading-10 font-semibold text-xs xl:text-lg'>{title}</h6>
         <p className="manrope text-xs lg:text-sm 2xl:text-base text-left">{description}</p>
         <div className='flex flex-row items-center justify-between text-[#54D4BD] gap-1.5'>
