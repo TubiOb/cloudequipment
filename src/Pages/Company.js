@@ -15,7 +15,7 @@ import Partners from '../Components/Partners'
 
 const Company = () => {
   return (
-    <div className='bg-[#FBFDFD] w-full h-full items-center flex justify-between flex-col'>
+    <div className='bg-[#FBFDFD] w-full h-full items-center'>
         <Navigation />
         <CompanyHero />
         <AboutUs />
