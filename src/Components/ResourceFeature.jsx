@@ -2,15 +2,15 @@ import React from 'react'
 import House from '../assets/house 1 (Traced).svg'
 import Money from '../assets/money 1 (Traced).svg'
 import Email from '../assets/Featured Icons.svg'
-import Rectangle1 from '../assets/Rectangle 145.svg'
-import Rectangle2 from '../assets/Rectangle 147.svg'
-import Rectangle3 from '../assets/Rectangle 148.svg'
-import Rectangle4 from '../assets/Rectangle 146.svg'
+import Picture from '../assets/Picture.png'
+import Picture1 from '../assets/Picture1.png'
+import Picture2 from '../assets/Picture2.png'
+import Picture3 from '../assets/Picture4.png'
 import '../index.css'
 
 const ResourceFeatures = () => {
   return (
-    <div className='flex w-full h-full mb-6 items-center mt-7 lg:mt-16'>
+    <div className='flex w-full h-full mb-16 items-center mt-7 lg:mt-16'>
         <div className='flex flex-col items-center justify-center w-[80%] mx-auto relative gap-20'>
             <div className='flex-col items-center text-center justify-between gap-3 lg:w-[60%] flex'>
                 <div className='text-[#54D4BD] bg-[#EEFFFC] rounded-lg items-center justify-center py-1 px-2'>
@@ -41,14 +41,14 @@ const ResourceFeatures = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-2 items-center pt-9 justify-between mx-auto w-[90%] md:w-[70%] lg:w-[60%] gap-2 lg:h-[150px]'>
+                <div className='grid grid-cols-2 items-center pt-9 justify-between mx-auto w-[90%] md:w-[70%] lg:w-[70%] gap-2'>
                     <div className='flex flex-col items-center justify-between gap-3'>
-                        <img src={Rectangle1} alt="" />
-                        <img src={Rectangle2} alt="" />
+                        <img src={Picture1} alt="" />
+                        <img src={Picture} alt="" />
                     </div>
                     <div className='flex flex-col items-center justify-between gap-3'>
-                        <img src={Rectangle3} alt="" />
-                        <img src={Rectangle4} alt="" />
+                        <img src={Picture3} alt="" />
+                        <img src={Picture2} alt="" />
                     </div>
                 </div>
             </div>

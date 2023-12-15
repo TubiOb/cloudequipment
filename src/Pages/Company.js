@@ -11,6 +11,7 @@ import Testimonials from '../Components/Testimonials'
 import Newsletter from '../Components/Newsletter'
 import '../index.css'
 import ToolsAccess from '../Components/ToolsAccess'
+import Partners from '../Components/Partners'
 
 const Company = () => {
   return (
@@ -24,6 +25,7 @@ const Company = () => {
         <Iono />
         <Testimonials />
         <Newsletter />
+        <Partners />
         <Footer />
     </div>
   )
