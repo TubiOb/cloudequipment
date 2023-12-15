@@ -8,7 +8,7 @@ import '../index.css'
 
 const Partners = () => {
   return (
-    <div className='bg-[#F5F5F5] w-full h-auto flex flex-row items-end gap-4 justify-center flex-wrap lg:gap-24 py-3 mt-8'>
+    <div className='bg-[#F5F5F5] w-full h-auto flex flex-row items-end gap-4 justify-center flex-wrap lg:gap-24 py-3 mt-52'>
         <div className='flex items-center lg:w-[10%] w-[14%] h-auto justify-center'>
             <img src={hexa} alt="" className='lg:w-full lg:h-full object-cover' />
         </div>

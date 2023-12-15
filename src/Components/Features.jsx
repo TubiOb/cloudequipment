@@ -10,18 +10,18 @@ import '../index.css'
 
 const Features = () => {
   return (
-    <div className='flex w-full h-full mb-28 items-center mt-7 lg:mt-16'>
+    <div className='flex w-full h-full mb-52 items-center mt-32 md:mt-[250px] lg:mt-[750px]'>
         <div className='flex flex-col items-center justify-center w-[80%] mx-auto relative gap-20'>
             <div className='flex-col items-center text-center justify-between gap-3 lg:w-[60%] flex'>
                 <div className='text-[#54D4BD] bg-[#EEFFFC] rounded-lg items-center justify-center py-1 px-2'>
                     <h5 className='inter text-xs'>CE Support</h5>
                 </div>
-                <h4 className='play font-semibold leading-8 text-base md:text-xl lg:text-2xl lg:w-[70%] xl:text-3xl 2xl:text-4xl'>We're on a Mission to Change View of Medical Equipment Finanzing.</h4>
+                <h4 className='play font-semibold leading-8 text-base md:text-xl lg:text-2xl lg:w-full xl:text-3xl 2xl:text-4xl'>We're on a Mission to Change View of Medical Equipment Finanzing.</h4>
                 <p className='manrope text-xs lg:text-sm xl:text-base 2xl:text-lg'>Our services are designed to cater to your specific needs and goals</p>
             </div>
 
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center lg:items-start justify-between w-[90%] mx-auto gap-6'>
-                <div className='grid grid-cols-1 items-start justify-between mx-auto w-[90%] md:w-[70%] lg:w-[45%] xl:w-[55%] gap-8 py-3'>
+                <div className='grid grid-cols-1 items-start justify-between mx-auto w-[90%] md:w-[70%] lg:w-[55%] xl:w-[75%] gap-8 py-3'>
                     <div className='flex-col items-start justify-between flex'>
                         <img src={House} alt="" className='w-14 h-9' />
                         <h4 className='play leading-8 font-medium text-base lg:text-lg'>Investment</h4>
@@ -41,7 +41,7 @@ const Features = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-2 items-center pt-9 justify-between mx-auto w-[90%] md:w-[70%] lg:w-[60%] gap-2 lg:h-[150px]'>
+                <div className='grid grid-cols-2 items-center pt-9 justify-between mx-auto w-[90%] md:w-[70%]'>
                     <div className='flex flex-col items-center justify-between gap-3'>
                         <img src={Rectangle1} alt="" />
                         <img src={Rectangle2} alt="" />

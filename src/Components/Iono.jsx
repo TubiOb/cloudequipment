@@ -29,7 +29,7 @@ const Iono = () => {
          z-20 bg-[#42526B] items-center w-[95%] md:w-[80%] lg:w-[80%] mx-auto lg:bottom-[-160px] xl:bottom-[-120px] 2xl:bottom-[-100px] left-0 right-0 bottom-[-50px] px-2 lg:px-5 py-3 lg:py-10 xl:py-10 2xl:py-10">
           {boxesContent.map((box, index) => (
             <div className="flex-col" key={index}>
-              <h4 className='text-[#54D4BD] play text-sm lg:text-3xl font-extrabold'>{box.count}</h4>
+              <h4 className='text-[#54D4BD] play text-2xl lg:text-6xl font-extrabold'>{box.count}</h4>
               <p className='manrope text-xs leading-[12px] md:leading-[10px] lg:leading-7 pt-3 lg:text-sm font-normal'>{box.description}</p>
             </div>
           ))}

@@ -77,15 +77,15 @@ const OurServices = () => {
 
   return (
     <div
-      className="bg-cover bg-center h-auto items-center flex flex-col sm:px-[1rem] md:px-[5rem] lg:px-[6rem] xl:px-[8rem]"
+      className="bg-cover bg-center h-auto md:h-[610px] lg:h-[810px] object-cover items-center flex flex-col px-[0.5rem] md:px-[2rem] lg:px-[6rem] xl:px-[8rem]"
       style={{ backgroundImage: `url(${BG})` }}
     >
 
-        <div className=" w-[80%] sm:w-[70%] md:w-[40rem] pt-[5rem] text-white flex flex-col mb-52 items-center justify-center text-center lg:w-[80%] mx-auto gap-6">
+        <div className=" w-[80%] sm:w-[70%] md:w-[40rem] pt-[5rem] text-white flex flex-col mb-28 md:mb-32 lg:mb-52 items-center justify-center text-center lg:w-[80%] mx-auto gap-6">
             <h1 className='text-3xl text-white play tracking-[2] leading-10 font-semibold lg:text-3xl xl:text-4xl'>Our Services</h1>
             <p className="font-['Manrope'] manrope text-xs lg:text-sm xl:text-base 2xl:text-lg w-[90%] md:w-[60%] xl:w-[60%] text-center">Phasellus interdum sagittis magna. Donec varius ultricies diam sed lacinia. Mauris porttitor. quis risus.</p>
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 pt-[5rem] gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:pt-[0.5rem] lg:pt-[3rem] gap-4">
         {cardContents.map((content, index) => (
           <Card
             key={index}

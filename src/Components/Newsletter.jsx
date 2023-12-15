@@ -4,7 +4,7 @@ import '../index.css'
 
 const Newsletter = () => {
   return (
-    <div className='bg-transparent flex items-center justify-center mt-4 lg:py-5 lg:px-16'>
+    <div className='bg-transparent flex items-center justify-center mt-52  lg:py-5 lg:px-16'>
             <div className='rounded-lg bg-[#EEFFFC] w-[95%] lg:w-[85%] flex flex-row px-2 py-4 lg:px-5 lg:py-7 mx-auto'>
                 <div className='flex items-start justify-between w-full mx-auto lg:w-[65%] z-20 flex-col gap-4 lg:gap-2'>
                     <h4  className='font-semibold text-base lg:text-2xl tracking-normal leading-5 lg:leading-6 play'>Enter your e-mail address and get started for free</h4>
