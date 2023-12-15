@@ -7,10 +7,10 @@ import '../index.css'
 const Footer = () => {
   return (
     <div className='w-full  items-center justify-between'>
-        <div className='flex bg-[rgb(66,82,107)] w-full lg:min-w-[80%] items-center lg:items-start justify-between gap-2 flex-wrap lg:pt-16 px-20 xl:px-28'>
-            <div className='w-full lg:w-[55%] xl:w-[45%] flex-col text-white flex gap-10 px-3 py-5 lg:py-0 bottom-0'>
-                <img src={logo} alt="Cloud Equipment" className='w-52 h-12' />
-                <p className='manrope text-xs md:text-sm lg:text-base xl:text-base 2xl:text-base font-normal leading-5'>We are always open to discuss your project and improve your online presence.</p>
+        <div className='flex bg-[rgb(66,82,107)] w-full lg:min-w-[80%] items-center lg:items-start justify-between gap-9 flex-wrap lg:pt-16 px-2 xl:px-20'>
+            <div className='w-full lg:w-[55%] xl:w-[35%] flex-col text-white items-start flex gap-11 px-3 py-5 lg:py-0 bottom-0'>
+                <img src={logo} alt="Cloud Equipment" className='w-82 h-12' />
+                <p className='manrope text-xs md:text-sm lg:text-base xl:text-base 2xl:text-base font-normal leading-5 lg:w-96'>We are always open to discuss your project and improve your online presence.</p>
                 <div className='flex flex-shrink flex-col lg:flex-col xl:flex-row items-start xl:items-center justify-between text-[#40484F] gap-3 px-2 py-3 lg:p-4 bg-[#54D4BD]'>
                     <div className='flex-col'>
                         <h4 className='pop text-sm lg:text-base font-medium leading-8'>Email me at</h4>
@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <ul className='nuni text-white w-full lg:w-[10%] grid gap-1 lg:gap-3 p-3 cursor-pointer'>
+            <ul className='nuni text-white w-full lg:w-[15%] grid gap-1 lg:gap-3 p-3 cursor-pointer'>
                 <li className='text-base lg:text-lg xl:text-lg 2xl:text-lg font-black leading-7 uppercase'>Company</li>
                 <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Our Story</li>
                 <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Careers</li>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>About Us</li>
                 <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Press</li>
             </ul>
-            <ul className='nuni text-white w-full lg:w-[10%] grid gap-1 lg:gap-3 p-3 cursor-pointer'>
+            <ul className='nuni text-white w-full lg:w-[15%] grid gap-1 lg:gap-3 p-3 cursor-pointer'>
                 <li className='text-base lg:text-lg xl:text-lg 2xl:text-lg font-black leading-7 uppercase'>Legal</li>
                 <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Legal</li>
                 <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Terms and conditions</li>
@@ -48,7 +48,7 @@ const Footer = () => {
                 <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Disclaimer</li>
                 
             </ul>
-            <ul className='nuni text-white w-full lg:w-[10%] grid gap-1 lg:gap-3 p-3 cursor-pointer'>
+            <ul className='nuni text-white w-full lg:w-[15%] grid gap-1 lg:gap-3 p-3 cursor-pointer'>
                 <li className='text-base lg:text-lg xl:text-lg 2xl:text-lg font-black leading-7 uppercase'>Resources</li>
                 <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>For Investors</li>
                 <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>For OEMs & Suppliers</li>
