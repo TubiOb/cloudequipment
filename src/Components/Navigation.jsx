@@ -33,7 +33,7 @@ const Navigation = () => {
   ]
 
   return (
-    <div className={`fixed lg:sticky 2xl:sticky bg-white z-40 flex xl:flex-row lg:flex-row 2xl:flex-row md:flex-col flex-col items-start md:items-start lg:items-center xl:items-center 2xl:items-center justify-evenly md:justify-between right-0 lg:w-full xl:w-full 2xl:w-full w-[90%] md:w-[50%] lg:h-14 xl:h-14 2xl:h-16 h-full md:h-full lg:py-1 px-5 py-8 xl:py-4 xl:px-8 gap-2 lg:gap-1 ${isMenuOpen ? 'right-0' : 'right-[-100%]'} `}>
+    <div className={`fixed lg:sticky 2xl:sticky bg-white z-40 flex xl:flex-row lg:flex-row 2xl:flex-row md:flex-col flex-col items-start md:items-start lg:items-center xl:items-center 2xl:items-center justify-evenly md:justify-between right-0 lg:w-full xl:w-full 2xl:w-full w-[90%] md:w-[50%] lg:h-14 xl:h-14 2xl:h-16 h-full md:h-full lg:py-1 px-5 py-8 xl:py-4 xl:px-8 gap-2 lg:gap-1 transition-all duration-500 ${isMenuOpen ? 'right-0' : 'right-[-100%]'} `}>
       <div className='w-16 h-6 cursor-pointer flex flex-row gap-3 md:gap-2'>
           <Link to='/' className='w-full h-full cursor-pointer flex flex-row items-center justify-between gap-2'>
               <img src={logo} alt="Cloud Equipment" className='w-full h-full' />
