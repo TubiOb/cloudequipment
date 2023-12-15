@@ -16,7 +16,7 @@ const ResourceFeatures = () => {
                 <div className='text-[#54D4BD] bg-[#EEFFFC] rounded-lg items-center justify-center py-1 px-2'>
                     <h5 className='inter text-xs'>CE Support</h5>
                 </div>
-                <h4 className='play font-semibold leading-8 text-sm md:text-base lg:text-xl lg:w-[70%] xl:text-2xl 2xl:text-3xl'>We're on a Mission to Change View of Medical Equipment Finanzing.</h4>
+                <h4 className='play font-semibold leading-8 text-base md:text-xl lg:text-2xl lg:w-[70%] xl:text-3xl 2xl:text-4xl'>We're on a Mission to Change View of Medical Equipment Finanzing.</h4>
                 <p className='manrope text-xs lg:text-sm xl:text-base 2xl:text-lg'>Our services are designed to cater to your specific needs and goals</p>
             </div>
 

@@ -85,7 +85,7 @@ const OurServices = () => {
             <h1 className='text-3xl text-white play -tracking-[2] leading-10 font-semibold lg:text-2xl xl:text-4xl'>Our service</h1>
             <p className="font-['Manrope'] manrope text-xs lg:text-sm xl:text-base 2xl:text-lg w-[90%] md:w-[60%] xl:w-[40%] text-center">Phasellus interdum sagittis magna. Donec varius ultricies diam sed lacinia. Mauris porttitor. quis risus.</p>
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 pt-[5rem] gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 pt-[55rem] gap-4">
         {cardContents.map((content, index) => (
           <Card
             key={index}
