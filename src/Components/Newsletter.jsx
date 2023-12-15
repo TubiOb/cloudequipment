@@ -6,8 +6,8 @@ const Newsletter = () => {
   return (
     <div className='bg-transparent flex items-center justify-center mt-4'>
         <div className='bg-white lg:w-[90%] xl:w-[95%] w-full h-auto flex items-center justify-center py-2 px-3 lg:py-7 lg:px-10'>
-            <div className='rounded-lg bg-[#EEFFFC] w-[95%] flex flex-row px-5 py-7 relative'>
-                <div className='flex items-start justify-between w-[90%] lg:w-[65%] z-20 flex-col gap-4 lg:gap-2.5'>
+            <div className='rounded-lg bg-[#EEFFFC] w-[95%] flex flex-row px-5 py-7 mx-auto'>
+                <div className='flex items-start justify-between w-[100%] mx-auto lg:w-[65%] z-20 flex-col gap-4 lg:gap-2.5'>
                     <h4  className='font-semibold text-base lg:text-2xl tracking-normal leading-3 lg:leading-6 play'>Enter your e-mail address and get started for free</h4>
                     <p className='text-sm lg:text-sm font-normal leading-5 lg:leading-3 py-2 drop-shadow-2xl inter'>Stay up to date with the most relevant information, our new collections, news and special offers!</p>
                     <div className='flex flex-row items-center w-[90%] justify-between gap-2 lg:gap-1'>

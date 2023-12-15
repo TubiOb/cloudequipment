@@ -12,7 +12,7 @@ import Partners from '../Components/Partners'
 
 const Products = () => {
   return (
-    <div className='bg-[#FBFDFD] w-full h-full items-center flex gap-12 justify-between flex-col'>
+    <div className='bg-[#FBFDFD] w-full h-full items-center flex justify-between flex-col'>
       <Navigation />
       <Hero />
       <AboutUs />
@@ -20,7 +20,7 @@ const Products = () => {
       <Features />
       <Iono />
       <Testimonials />
-      {/* <Newsletter /> */}
+      <Newsletter />
       <Partners />
     </div>
   )
