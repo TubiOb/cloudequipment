@@ -7,7 +7,7 @@ import Picture3 from '../assets/Picture4.png'
 
 const ResourceAccess = () => {
   return (
-    <div className='w-full flex-col flex items-center my-24 lg:items-start gap-20'>
+    <div className='w-full flex-col flex mb-64 items-center mt-32 md:mt-[250px] lg:mt-[750px] gap-20'>
         <div className='flex flex-col lg:flex-row items-center w-full gap-2 p-4'>
             <div className='grid grid-cols-1 grid-rows-1 items-center lg:items-end pt-9 w-full mx-auto md:w-[70%] lg:w-[40%] gap-4'>
                 <div className='flex items-start gap-3 w-[40%] lg:w-[40%]'>

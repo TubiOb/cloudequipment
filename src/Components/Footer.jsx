@@ -32,28 +32,28 @@ const Footer = () => {
                 </div>
             </div>
 
-            <ul className='nuni text-white w-full lg:w-[10%] grid gap-1 lg:gap-3 p-3'>
+            <ul className='nuni text-white w-full lg:w-[10%] grid gap-1 lg:gap-3 p-3 cursor-pointer'>
                 <li className='text-base lg:text-lg xl:text-lg 2xl:text-lg font-black leading-7 uppercase'>Company</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>Our Story</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>Careers</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>Community</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>About Us</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>Press</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Our Story</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Careers</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Community</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>About Us</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Press</li>
             </ul>
-            <ul className='nuni text-white w-full lg:w-[10%] grid gap-1 lg:gap-3 p-3'>
+            <ul className='nuni text-white w-full lg:w-[10%] grid gap-1 lg:gap-3 p-3 cursor-pointer'>
                 <li className='text-base lg:text-lg xl:text-lg 2xl:text-lg font-black leading-7 uppercase'>Legal</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>Legal</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>Terms and conditions</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>Privacy Policy</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>Disclaimer</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Legal</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Terms and conditions</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Privacy Policy</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Disclaimer</li>
                 
             </ul>
-            <ul className='nuni text-white w-full lg:w-[10%] grid gap-1 lg:gap-3 p-3'>
+            <ul className='nuni text-white w-full lg:w-[10%] grid gap-1 lg:gap-3 p-3 cursor-pointer'>
                 <li className='text-base lg:text-lg xl:text-lg 2xl:text-lg font-black leading-7 uppercase'>Resources</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>For Investors</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>For OEMs & Suppliers</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>For Healthcare Providers</li>
-                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7'>Others</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>For Investors</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>For OEMs & Suppliers</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>For Healthcare Providers</li>
+                <li className='font-normal text-sm lg:text-base xl:text-base 2xl:text-base leading-7 hover:text-[#ddd]'>Others</li>
             </ul>
         </div>
 

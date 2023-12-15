@@ -7,7 +7,7 @@ import Doctor from '../assets/doctor 1.png'
 
 const ToolsAccess = () => {
   return (
-    <div className='w-full flex-col flex items-center mb-24 lg:items-start gap-20'>
+    <div className='w-full flex-col flex items-center mb-52 lg:items-start gap-20'>
         <div className='flex flex-col xl:flex-row items-center justify-between gap-3 p-4'>
             <div className='flex items-end flex-shrink-0 w-[60%]'>
                 <img src={Tech} alt="" className='object-cover w-full lg:w-[60%] self-end mx-auto' />
