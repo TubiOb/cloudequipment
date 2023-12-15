@@ -77,7 +77,7 @@ const OurServices = () => {
 
   return (
     <div
-      className="bg-cover bg-center h-auto items-center flex flex-col sm:px-[1rem] md:px-[5rem] lg:px-[8rem] xl:px-[10rem]"
+      className="bg-cover bg-center h-auto items-center flex flex-col sm:px-[1rem] md:px-[5rem] lg:px-[6rem] xl:px-[8rem]"
       style={{ backgroundImage: `url(${BG})` }}
     >
 
