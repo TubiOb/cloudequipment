@@ -8,7 +8,7 @@ import '../index.css'
 
 const Testimonials = () => {
   return (
-    <div className='w-full flex h-full p-[5%] lg:p-[10%] flex-col items-center justify-between'>
+    <div className='w-full flex h-full pt-[25%] p-[5%] lg:p-[10%] flex-col items-center justify-between'>
         <div className='lg:w-[70%] md:w-[90%] w-full flex items-center justify-center flex-col'>
             <div className='flex flex-row items-center gap-1'>
                 <HiArrowLongRight size={26} className='text-[#54D4BD]' />

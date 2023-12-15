@@ -1,6 +1,7 @@
 import React from 'react';
 import photo from '../assets/john-fornander-Id7u0EkTjBE-unsplash (1) 1.png';
 import playButton from "../assets/Play Button.svg";
+import '../index.css'
 
 const Iono = () => {
   const boxesContent = [
@@ -29,7 +30,7 @@ const Iono = () => {
           {boxesContent.map((box, index) => (
             <div className="flex-col" key={index}>
               <h4 className='text-[#54D4BD] play text-sm lg:text-3xl font-extrabold'>{box.count}</h4>
-              <p className='manrope text-xs leading-[10px] lg:leading-7 pt-3 lg:text-sm font-normal'>{box.description}</p>
+              <p className='manrope text-xs leading-[12px] md:leading-[10px] lg:leading-7 pt-3 lg:text-sm font-normal'>{box.description}</p>
             </div>
           ))}
         </div>

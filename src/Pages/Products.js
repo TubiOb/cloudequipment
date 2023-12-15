@@ -9,10 +9,11 @@ import Iono from '../Components/Iono'
 import Testimonials from '../Components/Testimonials'
 import Newsletter from '../Components/Newsletter'
 import Partners from '../Components/Partners'
+import Footer from '../Components/Footer'
 
 const Products = () => {
   return (
-    <div className='bg-[#FBFDFD] w-full h-full items-center flex justify-between flex-col'>
+    <div className='bg-[#FBFDFD] w-full h-full items-center'>
       <Navigation />
       <Hero />
       <AboutUs />
@@ -22,6 +23,7 @@ const Products = () => {
       <Testimonials />
       <Newsletter />
       <Partners />
+      <Footer />
     </div>
   )
 }

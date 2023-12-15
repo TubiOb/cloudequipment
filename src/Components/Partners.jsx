@@ -4,6 +4,7 @@ import tech from '../assets/Tech Logo.svg'
 import realEstate from '../assets/Real Estate Logo.svg'
 import realEstate1 from '../assets/Real Estate Logo1.svg'
 import realEstate2 from '../assets/Real Estate Logo2.svg'
+import '../index.css'
 
 const Partners = () => {
   return (

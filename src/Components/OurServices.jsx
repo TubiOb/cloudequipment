@@ -7,6 +7,7 @@ import Icon3 from '../assets/Icons-connect.svg'
 import Icon4 from '../assets/Icons-marketplace.svg'
 import Icon5 from '../assets/Icons-flow.svg'
 import { BsArrowRightShort } from "react-icons/bs";
+import '../index.css'
 
 
 const Card = ({ title, description, icon }) => {

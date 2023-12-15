@@ -4,6 +4,8 @@ import Navigation from '../Components/Navigation'
 import ResourcesHero from '../Components/ResourcesHero'
 import AboutUs from '../Components/AboutUs'
 import OurServices from '../Components/OurServices'
+import Footer from '../Components/Footer'
+import '../index.css'
 
 const Resources = () => {
   return (
@@ -12,6 +14,7 @@ const Resources = () => {
       <ResourcesHero />
       <AboutUs />
       <OurServices />
+      <Footer />
     </div>
   )
 }

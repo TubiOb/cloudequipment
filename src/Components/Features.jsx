@@ -6,6 +6,7 @@ import Rectangle1 from '../assets/Rectangle 145.svg'
 import Rectangle2 from '../assets/Rectangle 147.svg'
 import Rectangle3 from '../assets/Rectangle 148.svg'
 import Rectangle4 from '../assets/Rectangle 146.svg'
+import '../index.css'
 
 const Features = () => {
   return (
@@ -40,7 +41,7 @@ const Features = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-2 items-center mt-9 justify-between mx-auto w-[90%] md:w-[70%] lg:w-[60%] gap-2 lg:h-[150px]'>
+                <div className='grid grid-cols-2 items-center pt-9 justify-between mx-auto w-[90%] md:w-[70%] lg:w-[60%] gap-2 lg:h-[150px]'>
                     <div className='flex flex-col items-center justify-between gap-3'>
                         <img src={Rectangle1} alt="" />
                         <img src={Rectangle2} alt="" />
