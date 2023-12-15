@@ -61,9 +61,9 @@ const Footer = () => {
             <div className='flex w-full items-start lg:items-center xl:items-center 2xl:items-center justify-between gap-2 flex-wrap p-5'>
                 <h3 className='pop font-medium w-full lg:w-[45%] leading-6 text-xs lg:text-center lg:text-sm xl:text-sm 2xl:text-sm'>CloudEquipment.com © Copyright 2023</h3>
                 <ul className='nuni w-full lg:w-[30%] flex gap-4 lg:gap-9 p-0 lg:p-3'>
-                    <li className='text-xs lg:text-sm xl:text-sm 2xl:text-sm nuni font-bold leading-7'>Product</li>
-                    <li className='text-xs lg:text-sm xl:text-sm 2xl:text-sm nuni font-bold leading-7'>Company</li>
-                    <li className='text-xs lg:text-sm xl:text-sm 2xl:text-sm nuni font-bold leading-7'>resources</li>
+                    <li className='text-xs lg:text-sm xl:text-sm 2xl:text-sm nuni font-bold leading-7 hover:text-[#ddd] hover:cursor-pointer'>Product</li>
+                    <li className='text-xs lg:text-sm xl:text-sm 2xl:text-sm nuni font-bold leading-7 hover:text-[#ddd] hover:cursor-pointer'>Company</li>
+                    <li className='text-xs lg:text-sm xl:text-sm 2xl:text-sm nuni font-bold leading-7 hover:text-[#ddd] hover:cursor-pointer'>resources</li>
                     
                 </ul>
             </div>
