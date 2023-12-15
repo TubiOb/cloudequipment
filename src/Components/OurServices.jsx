@@ -15,7 +15,7 @@ const Card = ({ title, description, icon }) => {
     <div className="bg-white shadow-md flex mx-auto w-[80%] lg:w-fit xl:w-fit 2xl:w-fit p-5 lg:py-14 gap-3 items-start rounded-[20px] cursor-pointer">
       <img src={icon} alt="" className="w-[50px]" />
       {/* <img src={Shape} alt="" className='self-start w-10 h-10' /> */}
-      <div className="gap-6 text-left">
+      <div className="gap-4 text-left">
         <h6 className='play -tracking-[2] leading-10 font-semibold text-xs xl:text-lg'>{title}</h6>
         <p className="manrope text-xs lg:text-sm 2xl:text-base text-left">{description}</p>
         <div className='flex flex-row items-center justify-between text-[#54D4BD] gap-1.5'>
@@ -81,11 +81,11 @@ const OurServices = () => {
       style={{ backgroundImage: `url(${BG})` }}
     >
 
-        <div className=" w-[80%] sm:w-[70%] md:w-[40rem] pt-[5rem] text-white flex flex-col items-center justify-center text-center lg:w-[80%] mx-auto gap-1">
+        <div className=" w-[80%] sm:w-[70%] md:w-[40rem] pt-[5rem] text-white flex flex-col items-center justify-center text-center lg:w-[80%] mx-auto gap-6">
             <h1 className='text-3xl text-white play -tracking-[2] leading-10 font-semibold lg:text-2xl xl:text-4xl'>Our service</h1>
             <p className="font-['Manrope'] manrope text-xs lg:text-sm xl:text-base 2xl:text-lg w-[90%] md:w-[60%] xl:w-[40%] text-center">Phasellus interdum sagittis magna. Donec varius ultricies diam sed lacinia. Mauris porttitor. quis risus eget mattis Ut auctor.</p>
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 pt-[5rem] gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 pt-[25rem] gap-4">
         {cardContents.map((content, index) => (
           <Card
             key={index}
