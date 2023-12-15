@@ -9,15 +9,15 @@ import '../index.css'
 const Testimonials = () => {
   return (
     <div className='w-full flex h-full pt-[25%] p-[5%] lg:p-[10%] flex-col items-center justify-between'>
-        <div className='lg:w-[70%] md:w-[90%] w-full flex items-center justify-center flex-col'>
+        <div className='lg:w-[70%] md:w-[90%] w-full flex items-center justify-center flex-col gap-6'>
             <div className='flex flex-row items-center gap-1'>
                 <HiArrowLongRight size={26} className='text-[#54D4BD]' />
                 <h4 className='font-semibold text-base tracking-wide leading-5 text-[#54D4BD] vietnam'>Our Client</h4>
             </div>
             <h4 className='font-extrabold font-[Playfair Display] play text-xl lg:text-2xl xl:text-3xl tracking-wide leading-7'> Testimonial</h4>
-            <div className='flex flex-row mx-auto lg:w-[85%] md:[75%] w-[90%] text-left md:text-center lg:text-center xl:text-center items-start justify-start mt-2'>
+            <div className='flex flex-row mx-auto lg:w-[85%] md:[75%] w-[90%] text-left md:text-center mt-9 lg:text-center xl:text-center items-start justify-start'>
                 <img src={quote} alt="" className='w-10 h-10 lg:w-16 lg:h-16 top-0 opacity-50 z-10 self-start text-blue-200' />
-                <p className='text-sm md:text-base text-left xl:text-lg font-normal leading-5 py-2 z-20 drop-shadow-2xl manrope'>
+                <p className='text-sm md:text-base xl:text-lg font-normal text-center leading-5 py-2 z-20 drop-shadow-2xl manrope'>
                     When applied to building block a website or similar work product, a Visual Guide can be an intermediate step toward the end goal of a complete website. By creating a visual guide along the way, the designer or developer can get input from the other people involved in the website such as the customer, their manager, and other members of the team.
                 </p>
                 
