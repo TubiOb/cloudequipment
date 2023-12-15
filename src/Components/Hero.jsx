@@ -1,5 +1,5 @@
 import React from 'react'
-import baseImage from '../assets/Base-img-1.svg'
+import baseImage from '../assets/Base-img-1.png'
 import { Link } from 'react-router-dom'
 import '../index.css'
 
