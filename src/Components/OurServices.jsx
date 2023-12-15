@@ -83,7 +83,7 @@ const OurServices = () => {
 
         <div className=" w-[80%] sm:w-[70%] md:w-[40rem] pt-[5rem] text-white flex flex-col mb-52 items-center justify-center text-center lg:w-[80%] mx-auto gap-6">
             <h1 className='text-3xl text-white play -tracking-[2] leading-10 font-semibold lg:text-2xl xl:text-4xl'>Our service</h1>
-            <p className="font-['Manrope'] manrope text-xs lg:text-sm xl:text-base 2xl:text-lg w-[90%] md:w-[60%] xl:w-[40%] text-center">Phasellus interdum sagittis magna. Donec varius ultricies diam sed lacinia. Mauris porttitor. quis risus eget mattis Ut auctor.</p>
+            <p className="font-['Manrope'] manrope text-xs lg:text-sm xl:text-base 2xl:text-lg w-[90%] md:w-[60%] xl:w-[40%] text-center">Phasellus interdum sagittis magna. Donec varius ultricies diam sed lacinia. Mauris porttitor. quis risus.</p>
         </div>
       <div className="grid grid-cols-1 md:grid-cols-2 pt-[5rem] gap-4">
         {cardContents.map((content, index) => (
