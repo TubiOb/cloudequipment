@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../assets/Frame 132.svg'
+import Image from '../assets/Frame 132.png'
 import Arrow from '../assets/Arrow 4.svg'
 import '../index.css'
 
