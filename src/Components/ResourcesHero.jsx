@@ -6,7 +6,7 @@ import '../index.css'
 const ResourcesHero = () => {
   return (
     <div className='w-full h-[600px] lg:h-1/5'>
-        <img src={baseImage} alt="CloudEquipments Experts" className='top-0 left-0 w-full h-full object-cover bg-fixed' loading='lazy' />
+        <img src={baseImage} alt="CloudEquipments Experts" className='top-0 left-0 w-full h-full object-cover bg-fixed' />
 
         <div className='bg-neutral-200/15 absolute top-0 left-0 w-full h-screen'>
             <div className='absolute top-0 md:-top-8 lg:top-0 xl:top-0 2xl:top-0 w-full h-full flex flex-col justify-center text-white'>
