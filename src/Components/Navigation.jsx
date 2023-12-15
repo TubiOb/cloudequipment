@@ -57,7 +57,7 @@ const Navigation = () => {
       </ul>
 
       <div className='flex  lg:flex-row xl:flex-row 2xl:flex-row flex-row items-center lg:items-center xl:items-center 2xl:items-center justify-between gap-3 md:gap-1 lg:gap-4 xl:gap-6 2xl:gap-6 py-5 xl:px-4 2xl:px-4 lg:py-3 xl:py-2 2xl:py-2 lg:px-1 px-4'>
-        <h5 className='text-[#1C2221] hover:text-[#54D4BD] text-sm md:text-base font-normal 2xl:text-xl'>Login</h5>
+        <h5 className='text-[#1C2221] hover:text-[#54D4BD] text-sm md:text-base font-normal 2xl:text-xl cursor-pointer'>Login</h5>
         <div className='flex flex-row items-center justify-between bg-[#54D4BD] text-white tracking-wider hover:bg-white hover:shadow-md hover:shadow-neutral-300 hover:text-[#54D4BD] text-sm md:text-base 2xl:text-xl rounded-md font-normal py-1 px-2.5 lg:font-medium gap-2'>
           <IoPersonCircle />
           <button type="submit" className='jakarta'>Become an Investor</button>
