@@ -7,12 +7,12 @@ import Doctor from '../assets/doctor 1.png'
 
 const ToolsAccess = () => {
   return (
-    <div className='w-full flex-col flex items-center mb-52 lg:items-start gap-20'>
-        <div className='flex flex-col xl:flex-row items-center justify-between gap-3 p-4'>
-            <div className='flex items-end flex-shrink-0 w-[60%]'>
-                <img src={Tech} alt="" className='object-cover w-full lg:w-[60%] self-end mx-auto' />
+    <div className=' flex-col flex items-center mb-52 lg:items-start gap-20 mx-auto w-[90%]'>
+        <div className='flex flex-col xl:flex-row items-center justify-between gap-3 w-full lg:w-[90%] mx-auto lg:gap-0 p-4'>
+            <div className='items-end flex-shrink-0 w-[45%] place-content-end'>
+                <img src={Tech} alt="" className='object-cover w-full lg:w-[85%] justify-end self-end lg:ml-auto' />
             </div>
-            <div className='flex flex-col items-start justify-center p-4 lg:px-48 gap-4'>
+            <div className='flex flex-col items-start justify-start text-left lg:h-96 p-4 lg:px-12 gap-4'>
                 <h4 className='play font-extrabold leading-4 md:leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl'>Powerful tools.</h4>
                 <h4 className='play font-extrabold leading-4 md:leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl text-[#54D4BD]'>More control.</h4>
                 <p className='roboto font-normal leading-6 text-xs lg:text-sm text-[#CBD5E1]'>Scelerisque auctor dolor diam tortor, fames faucibus non interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia.</p>
@@ -39,8 +39,8 @@ const ToolsAccess = () => {
             </div>
         </div>
 
-        <div className='flex flex-col xl:flex-row items-center justify-between gap-3 p-4'>
-            <div className='flex flex-col items-start justify-center p-4 lg:px-48 gap-4'>
+        <div className='flex flex-col xl:flex-row items-center justify-between w-full lg:w-[90%] mx-auto gap-3 lg:gap-0 p-4'>
+            <div className='flex flex-col items-start justify-center p-4 lg:px-16 gap-4'>
                 <h4 className='play font-extrabold leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl'>Increasing Access to Quality</h4>
                 <h4 className='play font-extrabold leading-4 md:leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl text-[#54D4BD] capitalize'>life-saving machines</h4>
                 <p className='roboto font-normal leading-6 text-xs lg:text-sm'>We assist with financing to minimise upfront costs as well as operational and maintenance support. This helps you get the most out of the equipment and ensure the best quality care to your patients and the public.</p>
@@ -65,8 +65,8 @@ const ToolsAccess = () => {
                     </div>
                 </ul>
             </div>
-            <div className='flex items-start flex-shrink-0 w-full lg:w-[60%]'>
-                <img src={Doctor} alt="" className='object-cover w-full lg:w-[60%] self-start mx-auto' />
+            <div className='items-center flex-shrink-0 w-[45%] '>
+                <img src={Doctor} alt="" className='object-cover w-full self-start mr-auto' />
             </div>
             
         </div>

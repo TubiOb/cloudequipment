@@ -35,14 +35,14 @@ const Testimonials = () => {
             <div className='flex items-center lg:border-t-2 pt-3 lg:pt-[-10] lg:border-t-[#54D4BD] justify-between flex-row gap-3 '>
                 <img src={elipse1} alt="" className='w-10 h-10' />
                 <div className='flex flex-col items-start justify-between'>
-                    <h4 className='font-semibold text-base tracking-wide leading-3 '>Ruthvietnamerford Brannan</h4>
+                    <h4 className='font-semibold text-base tracking-wide leading-3 '>Rutherford Brannan</h4>
                     <p className='text-xs font-normal leading-3 py-2 drop-shadow-2xl text-[#54D4BD] vietnam'>Design director of Perfect Illustration</p>
                 </div>
             </div>
             <div className='flex items-center justify-between flex-row gap-3 '>
                 <img src={elipse2} alt="" className='w-10 h-10' />
                 <div className='flex flex-col items-start justify-between'>
-                    <h4 className='font-semibold text-base tracking-wide leading-1 '>vietnamHenry Itondo</h4>
+                    <h4 className='font-semibold text-base tracking-wide leading-1 '>Henry Itondo</h4>
                     <p className='text-xs font-normal leading-3 py-2 drop-shadow-2xl text-[#54D4BD] vietnam'>Co-founder of Source DS</p>
                 </div>
             </div>

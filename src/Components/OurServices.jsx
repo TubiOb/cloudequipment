@@ -1,5 +1,5 @@
 import React from 'react'
-import BG from '../assets/BG.svg'
+import BG from '../assets/BG.png'
 // import Shape from '../assets/Shape.svg'
 import Icon1 from '../assets/Icons-support.svg'
 import Icon2 from '../assets/Icons-invest.svg'
