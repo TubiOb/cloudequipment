@@ -5,9 +5,9 @@ import '../index.css'
 
 const AboutUs = () => {
   return (
-    <div className='w-full h-auto flex flex-wrap items-center justify-between lg:justify-evenly gap-8 lg:gap-2 bg-white py-[10%] px-[5%] lg:py-[18%] lg:px-[13%]'>
-        <img src={Image} alt="Couple of staffs smiling" className='w-[85%] mx-auto lg:w-[50%]' />
-        <div className='md:w-[40%] flex items-start justify-between flex-col gap-4 lg:gap-10 py-3 px-1'>
+    <div className='w-full h-auto flex flex-col lg:flex-row items-center justify-between lg:justify-evenly gap-8 lg:gap-2 bg-white py-[10%] px-[5%] lg:py-[18%] lg:px-[13%]'>
+        <img src={Image} alt="Couple of staffs smiling" className='w-[75%] mx-auto lg:w-[50%]' />
+        <div className=' w-[75%] lg:w-[40%] flex items-start justify-between flex-col gap-4 lg:gap-10 py-3 px-1'>
             <div className='flex items-center justify-between flex-row gap-2.5'>
                 <img src={Arrow} alt="right-arrow" />
                 <h4 className="font-['Be Vietnam Pro'] vietnam text-[#54D4BD] font-normal leading-6 text-sm lg:text-base xl:text-lg 2xl:text-xl">About Us</h4>

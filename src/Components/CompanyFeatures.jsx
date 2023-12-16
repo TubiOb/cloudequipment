@@ -7,7 +7,7 @@ import '../index.css'
 
 const CompanyFeatures = () => {
   return (
-    <div className='flex h-full mb-64 items-center mt-32 md:mt-[550px] lg:mt-[750px] w-full'>
+    <div className='flex h-full mb-64 items-center mt-32 md:mt-[650px] lg:mt-[750px] w-full'>
         <div className='flex flex-col items-center justify-center w-[80%] mx-auto relative gap-20'>
             <div className='flex-col items-center text-center justify-between gap-3 lg:w-[60%] flex'>
                 <div className='text-[#54D4BD] bg-[#EEFFFC] rounded-lg items-center justify-center py-1 px-2'>

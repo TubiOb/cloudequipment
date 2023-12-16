@@ -7,7 +7,7 @@ import Picture3 from '../assets/Picture4.png'
 
 const ResourceAccess = () => {
   return (
-    <div className='w-full flex-col flex mb-64 items-center mt-32 md:mt-[250px] lg:mt-[750px] gap-20'>
+    <div className='w-full flex-col flex mb-64 items-center mt-32 md:mt-[650px] lg:mt-[750px] gap-20'>
         <div className='flex flex-col lg:flex-row items-center w-full gap-2 p-4'>
             <div className='grid grid-cols-1 grid-rows-1 items-center lg:items-end pt-9 w-full mx-auto md:w-[70%] lg:w-[40%] gap-4'>
                 <div className='flex items-start gap-3 w-[40%] lg:w-[40%]'>
@@ -18,7 +18,7 @@ const ResourceAccess = () => {
                     <img src={Picture2} alt="" className='object-cover' />
                 </div>
             </div>
-            <div className='flex flex-col items-start justify-center w-full lg:w-[50%] p-4 lg:px-48 gap-4'>
+            <div className='flex flex-col md:items-center items-start justify-center w-full md:w-[80%] lg:w-[50%] p-4 lg:px-48 gap-4'>
                 <h4 className='play font-extrabold leading-4 md:leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl'>Powerful tools.</h4>
                 <h4 className='play font-extrabold leading-4 md:leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl text-[#54D4BD]'>More control.</h4>
                 <p className='roboto font-normal leading-6 text-xs lg:text-sm text-[#CBD5E1]'>Scelerisque auctor dolor diam tortor, fames faucibus non interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia.</p>
@@ -45,7 +45,7 @@ const ResourceAccess = () => {
             </div>
         </div>
 
-        <div className='flex flex-col xl:flex-row items-center justify-between gap-3 p-4'>
+        <div className='flex flex-col xl:flex-row items-center justify-between w-full md:w-[80%] lg:w-[50%] p-4 lg:px-48 gap-4'>
             <div className='flex flex-col items-start justify-center p-4 lg:px-48 gap-4'>
                 <h4 className='play font-extrabold leading-4 md:leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl'>Team management.</h4>
                 <h4 className='play font-extrabold leading-6 md:leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl text-[#54D4BD]'>Effortless syncronization.</h4>
