@@ -24,7 +24,7 @@ const Testimonials = () => {
             </div>
             
         </div>
-        <div className='border-t-2 lg:w-[85%] mx-auto w-[90%] border-opacity-5 flex items-start lg:items-center justify-center lg:justify-between lg:flex-row flex-col gap-4 mt-5 py-3 lg:py-0 lg:px-4 px-2'>
+        <div className='border-t-2 lg:w-[85%] mx-auto w-[90%] border-opacity-5 flex items-start lg:items-center justify-center lg:justify-between lg:flex-row flex-col gap-4 mt-5 py-3 lg:py-3 lg:px-4 px-2'>
             <div className='flex items-center justify-between flex-row gap-3 '>
                 <img src={elipse} alt="" className='w-10 h-10' />
                 <div className='flex flex-col items-start justify-between'>
@@ -32,17 +32,17 @@ const Testimonials = () => {
                     <p className='text-xs font-normal leading-3 py-2 drop-shadow-2xl text-[#54D4BD] vietnam'>Co-founder of Forpeople</p>
                 </div>
             </div>
-            <div className='flex items-center lg:border-t-2 pt-3 lg:pt-[-10] lg:border-t-[#54D4BD] justify-between flex-row gap-3 '>
+            <div className='flex items-center lg:border-t-2 pt-4 lg:mt-[-14px] lg:border-t-[#54D4BD] justify-between flex-row gap-3 '>
                 <img src={elipse1} alt="" className='w-10 h-10' />
                 <div className='flex flex-col items-start justify-between'>
-                    <h4 className='font-semibold text-base tracking-wide leading-3 '>Rutherford Brannan</h4>
+                    <h4 className='font-semibold text-base tracking-wide leading-1 vietnam'>Rutherford Brannan</h4>
                     <p className='text-xs font-normal leading-3 py-2 drop-shadow-2xl text-[#54D4BD] vietnam'>Design director of Perfect Illustration</p>
                 </div>
             </div>
             <div className='flex items-center justify-between flex-row gap-3 '>
                 <img src={elipse2} alt="" className='w-10 h-10' />
                 <div className='flex flex-col items-start justify-between'>
-                    <h4 className='font-semibold text-base tracking-wide leading-1 '>Henry Itondo</h4>
+                    <h4 className='font-semibold text-base tracking-wide leading-1 vietnam'>Henry Itondo</h4>
                     <p className='text-xs font-normal leading-3 py-2 drop-shadow-2xl text-[#54D4BD] vietnam'>Co-founder of Source DS</p>
                 </div>
             </div>
