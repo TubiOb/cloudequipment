@@ -9,7 +9,7 @@ const ToolsAccess = () => {
   return (
     <div className=' flex-col flex items-center mb-52 lg:items-start gap-20 mx-auto w-[90%]'>
         <div className='flex flex-col xl:flex-row items-center justify-between gap-3 w-full lg:w-[90%] mx-auto lg:gap-0 p-4'>
-            <div className='items-end flex-shrink-0 w-[45%] place-content-end'>
+            <div className='items-end flex-shrink-0 w-full lg:w-[45%] place-content-end'>
                 <img src={Tech} alt="" className='object-cover w-full lg:w-[85%] justify-end self-end lg:ml-auto' />
             </div>
             <div className='flex flex-col items-start justify-start text-left lg:h-96 p-4 lg:px-12 gap-4'>
@@ -65,7 +65,7 @@ const ToolsAccess = () => {
                     </div>
                 </ul>
             </div>
-            <div className='items-center flex-shrink-0 w-[45%] '>
+            <div className='items-center flex-shrink-0 w-full lg:w-[45%] '>
                 <img src={Doctor} alt="" className='object-cover w-full self-start mr-auto' />
             </div>
             
