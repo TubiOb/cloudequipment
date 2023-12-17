@@ -41,7 +41,7 @@ const ResourceFeatures = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-2 items-center pt-9 justify-between mx-auto w-[90%] md:w-[70%] lg:w-[90%]'>
+                <div className='grid grid-cols-2 items-center pt-9 justify-between mx-auto w-[90%] md:w-[70%] lg:w-[90%] gap-1'>
                     <div className='flex flex-col items-center justify-between gap-2'>
                         <img src={Picture1} alt="" />
                         <img src={Picture} alt="" />
