@@ -41,7 +41,7 @@ const Features = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-2 items-center pt-9 justify-between mx-auto w-[90%] md:w-[70%]'>
+                <div className='grid grid-cols-2 items-center pt-9 justify-between mx-auto w-[90%] md:w-[70%] gap-1'>
                     <div className='flex flex-col items-center justify-between gap-3'>
                         <img src={Rectangle1} alt="" />
                         <img src={Rectangle2} alt="" />
