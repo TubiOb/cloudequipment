@@ -42,7 +42,7 @@ const ToolsAccess = () => {
         <div className='flex flex-col xl:flex-row items-center justify-between w-full lg:w-[90%] mx-auto gap-3 lg:gap-0 p-4'>
             <div className='flex flex-col items-start justify-center p-4 lg:px-16 gap-4'>
                 <h4 className='play font-extrabold leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl'>Increasing Access to Quality</h4>
-                <h4 className='play font-extrabold leading-4 md:leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl text-[#54D4BD] capitalize'>life-saving machines</h4>
+                <h4 className='play font-extrabold leading-6 md:leading-7 lg:leading-9 tracking-tight text-3xl lg:text-4xl text-[#54D4BD] capitalize'>life-saving machines</h4>
                 <p className='roboto font-normal leading-6 text-xs lg:text-sm'>We assist with financing to minimise upfront costs as well as operational and maintenance support. This helps you get the most out of the equipment and ensure the best quality care to your patients and the public.</p>
                 <ul className='manrope font-normal text-xs lg:text-sm'>
                     <div className='flex flex-row gap-1'>
